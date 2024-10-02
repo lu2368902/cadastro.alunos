@@ -1,0 +1,105 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to bottom, #a5d6a7, #4caf50); /* Degradê de verdes */
+    color: #1d1d1d; /* Cor de texto mais escura para melhor legibilidade */
+}
+
+h2 {
+    color: #00796b; /* Verde mais vibrante */
+    text-align: center;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-size: 2em; /* Aumenta o tamanho do título */
+}
+
+form {
+    margin: 0 auto 20px auto; /* Centraliza o formulário e mantém a margem em baixo */
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    border-radius: 12px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adiciona sombra ao formulário */
+    width: 90%;
+    max-width: 450px; /* Largura máxima do formulário */
+    text-align: center; /* Centraliza o conteúdo do formulário */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00796b; /* Cor do texto dos rótulos */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: calc(100% - 20px); /* Ajusta a largura para incluir padding */
+    padding: 12px; /* Aumenta o espaçamento interno */
+    margin-bottom: 15px; /* Aumenta o espaço abaixo dos campos */
+    border: 1px solid #ccc; /* Borda mais suave */
+    border-radius: 6px; /* Bordas arredondadas */
+    transition: border-color 0.3s; /* Transição suave ao focar no campo */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #00796b; /* Mudança de cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão do campo */
+}
+
+button {
+    background-color: #009688; /* Cor de fundo do botão */
+    color: white;
+    padding: 14px 20px; /* Aumenta o espaçamento interno */
+    border: none;
+    border-radius: 6px; /* Bordas arredondadas */
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #004d40; /* Cor de fundo ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adiciona sombra à tabela */
+}
+
+th, td {
+    padding: 15px; /* Aumenta o espaçamento interno das células */
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #00796b; /* Cor de fundo para cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+}
+
+tr:nth-child(even) {
+    background-color: #e0f2f1; /* Fundo mais suave para linhas pares */
+}
+
+a {
+    color: #009688; /* Cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    margin-top: 20px; /* Espaço acima do rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+    background-color: #00796b; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    border-radius: 6px; /* Bordas arredondadas */
+}
